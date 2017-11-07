@@ -117,17 +117,11 @@ h3{
 	 font-family:  Arial, Helvetica, sansa-serif;
 	 font-size: 100%;
  }
- 
- @media (max-width:400px) {
-	.body {
-		background-image: hidden;
-	}
- }
+
  
  #matbild {
     height: 400px;
     width: 70%;
-    float: Center;
     margin-right: 20px;
     margin-bottom: 20px;
 }
@@ -151,11 +145,8 @@ h3{
  }
 
 #disabeled{
-	float: left;
 	display: block;
-    	color: white;
-    	padding: 16px 16px;
-    	text-decoration: none;
+    color: white;
 	background-color: #111;
 }
 
