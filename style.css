@@ -1,0 +1,243 @@
+
+
+.inactive{
+	float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  background-color: #ddd;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+} 
+
+.inactive{
+	float: none;
+	color: white;
+	padding: 12px 16px;
+	text-decoration: none;
+	background-color: #ddd;
+	display: block;
+	text-align: left;
+}
+
+
+#LoginButton{
+	float: right;
+	
+}
+/* Add a grey background color to dropdown links on hover */
+/*.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+/*.dropdown:hover .dropdown-content {
+  display: block;
+} */
+
+
+#header{
+	height: 100px;
+}
+
+
+.content{
+	background-color: white;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    font-style: normal;
+}
+
+@media (max-width:400px) {
+	.content {
+		width:100%;
+	}
+}
+
+.dropdown-menu{
+	display: none;
+  overflow: hidden;
+  position: absolute;
+  background-color: #111; /* black*/
+  min-width: 160px;
+}
+
+.kalendervecka{
+	text-align: Center;
+}
+
+.kalendervecka li {
+    display: inline-block;
+    width: 10%;
+    min-height: 100px;
+    background: #ccc;
+    vertical-align: top;
+    margin-top: 15px;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    font-family: sans-serif;
+    font-style: normal;
+}
+
+h2{
+	font-size: 150%;
+	/*padding: 10px;*/
+}
+
+h3{
+		font-size: 120%;
+	}
+
+ body{
+	 margin: 0;
+	 background-image: url("pancakesBackground.jpg");
+	 background-size: cover;
+	 background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+	 position:relative;
+	 font-family:  Arial, Helvetica, sansa-serif;
+	 font-size: 100%;
+ }
+ 
+ @media (max-width:400px) {
+	.body {
+		background-image: hidden;
+	}
+ }
+ 
+ #matbild {
+    height: 400px;
+    width: 70%;
+    float: Center;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+ .inactive{
+	  background-color: #111;
+ }
+ 
+#indexh1{
+	text-align: center;
+	font-size: 300%;
+} 
+ 
+ #indexh2{
+	 text-align: center;
+		font-size: 200%;
+ }
+ div.comment{
+	background:#ccc;
+	padding: 20px;
+	
+ }
+
+#disabeled{
+	float: left;
+	display: block;
+    	color: white;
+    	padding: 16px 16px;
+    	text-decoration: none;
+	background-color: #111;
+}
+
+
+
+/* Navbar container */
+.navbar {
+  background-color: #333;
+  overflow: hidden;
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+}
+
+/* Add a grey background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #111;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  overflow: hidden;
+  position: absolute;
+  background-color: #333;
+  min-width: 160px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.inactive{
+	float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  background-color: #ddd;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #111;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+} 
+
+.firstpage{
+	text-align: center;
+}
